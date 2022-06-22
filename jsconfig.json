@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/local_collection_driver.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/collection.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/connection_options.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/doc_fetcher.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/mongo_driver.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/mongo_utils.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/observe_multiplex.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/oplog_observe_driver.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/oplog_tailing.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/oplog_v2_converter.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/polling_observe_driver.js",
+        "/home/tayfun/.meteor/packages/mongo/1.15.0/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/tayfun/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/tayfun/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/home/tayfun/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/home/tayfun/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/home/tayfun/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/home/tayfun/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/tayfun/.meteor/packages/ecmascript/0.16.2/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/tayfun/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/home/tayfun/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/tayfun/.meteor/packages/hot-module-replacement/0.5.1/web.browser/hot-api.js",
+        "/home/tayfun/.meteor/packages/hot-module-replacement/0.5.1/web.browser/client.js",
+        "/home/tayfun/.meteor/packages/hot-module-replacement/0.5.1/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/home/tayfun/.meteor/packages/react-meteor-data/2.5.1/web.browser/index.js"
+      ],
+      "meteor/aldeed:simple-schema": [
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/string-polyfills.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/string-humanize.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/mongo-object.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/simple-schema-utility.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/simple-schema.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/simple-schema-validation.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/simple-schema-validation-new.js",
+        "/home/tayfun/.meteor/packages/aldeed_simple-schema/1.5.4/web.browser/simple-schema-context.js"
+      ],
+      "meteor/check": [
+        "/home/tayfun/.meteor/packages/check/1.3.1/web.browser/match.js",
+        "/home/tayfun/.meteor/packages/check/1.3.1/web.browser/isPlainObject.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
